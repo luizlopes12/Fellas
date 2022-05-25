@@ -1,0 +1,31 @@
+*********************
+Mongo DB
+*********************
+const mongoose = require("mongoose");
+//connectando com o banco de dados
+mongoose.connect('caminho')
+//executando a conexão
+const db = mongoose.connection
+//exportando a classe de conexão
+module.exports = db;
+
+
+*********************
+MySql
+*********************
+const Sequelize = require("sequelize");
+//Conexão com o banco de dados mysql
+const sequelize = new Sequelize("Nome do banco", "Usuario", "Senha", {
+  host: "localhost",
+  dialect: "mysql",
+});
+
+sequelize
+  .authenticate()
+  .then(() => console.log("Banco de dados conectado"))
+  .catch((err) => console.log("falha ao se conectar: " + err));
+
+module.exports = {
+  Sequelize,
+  sequelize,
+};
