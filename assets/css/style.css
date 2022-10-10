@@ -1,0 +1,43 @@
+/*
+//////////////////////////
+    Presets
+//////////////////////////
+*/
+body.light__theme{
+    --bg-color: #ffffff;
+    --section-bg: #0F0F0F;
+    --terciary-blue: #1BF2FF;
+    --secondary-blue: #3E77FF;
+    --primary-blue: #0646A6;
+    --card-black: #242424;
+    --card-green: #21BF6A;
+    --card-blue: #3E76FF;
+    --card-orange: #E47130;
+    --primary-title-color: #DC4DB4;
+    --secondary-title-color: #dc4db4b3;
+    --light-font-color: #FFFFFF;
+    --dark-font-color: #020202;
+}
+body.dark__theme{
+    --bg-color: #0F0F0F;
+    --section-bg: #0F0F0F;
+    --terciary-blue: #1BF2FF;
+    --secondary-blue: #3E77FF;
+    --primary-blue: #0646A6;
+    --card-black: #242424;
+    --card-green: #21BF6A;
+    --card-blue: #3E76FF;
+    --card-orange: #E47130;
+    --primary-title-color: #DC4DB4;
+    --secondary-title-color: rgba(220, 77, 180, 0.7);
+    --light-font-color: #FFFFFF;
+    --dark-font-color: #020202;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    transition: all .3s ease-in-out;
+    background: var(--bg-color);
+}
