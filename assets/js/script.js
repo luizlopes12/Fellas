@@ -1,5 +1,5 @@
 let theme = localStorage.getItem('theme')
-if(theme.length > 0){
+if(theme?.length > 0){
     document.body.classList.add(theme)
 }else{
     document.body.classList.add('light__theme')
