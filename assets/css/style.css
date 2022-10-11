@@ -159,7 +159,7 @@ body {
 .hero__section{
     min-height: 85vh;
 }
-/* .hero__section::before{
+.hero__section::before{
     content: '';
     padding: 200px;
     border-radius: 200px;
@@ -180,7 +180,7 @@ body {
     bottom:-300px;
     background: #DC4DB4;
     filter: blur(200px);
-} */
+}
 @media(max-width: 1000px) {
     .theme__switcher{
         position: absolute;
