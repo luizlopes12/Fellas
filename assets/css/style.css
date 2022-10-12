@@ -143,7 +143,7 @@ body {
 }
 
 .mobile__menu.open .line1 {
-    transform: rotate(-45deg) translate(-10px, 8px);
+    transform: rotate(-45deg) translate(-6px, 8px);
 }
 
 .mobile__menu.open .line2 {
@@ -151,7 +151,7 @@ body {
 }
 
 .mobile__menu.open .line3 {
-    transform: rotate(45deg) translate(-8px, -7px);
+    transform: rotate(45deg) translate(-6px, -8px);
 }
 
 /*
