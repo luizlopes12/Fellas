@@ -52,7 +52,10 @@ body {
     Menu
 /////////////////////
 */
-
+.stop__scroll {
+    height: 90vh;
+    overflow: hidden;
+}
 .theme__switcher{
     position: fixed;
     right: 10px;
@@ -96,7 +99,9 @@ body {
 .nav__links a {
     position: relative;
 }
-
+.navbar__section{
+    z-index: 999;
+}
 .nav__links a:hover {
     color: var(--font-color);
 }
@@ -157,6 +162,7 @@ body {
 
 .navbar__fixed{
     position: fixed;
+    background: #fff;
 }
 .hero__section{
     min-height: 60vh;
