@@ -162,7 +162,6 @@ body {
 .hero__section::before{
     content: '';
     padding: 200px;
-    border-radius: 200px;
     position: absolute;
     right: -300px;
     z-index: 0;
@@ -173,7 +172,6 @@ body {
 .hero__section::after{
     content: '';
     padding: 200px;
-    border-radius: 200px;
     position: absolute;
     left: -300px;
     z-index: 0;
@@ -182,6 +180,26 @@ body {
     filter: blur(200px);
 }
 @media(max-width: 1000px) {
+    .hero__section::before{
+        content: '';
+        padding: 80px;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+        top:0;
+        background: #02ffee;
+        filter: blur(120px);
+    }
+    .hero__section::after{
+        content: '';
+        padding: 80px;
+        position: absolute;
+        left: 0;
+        z-index: 0;
+        bottom: 0;
+        background: #DC4DB4;
+        filter: blur(120px);
+    }
     .theme__switcher{
         position: absolute;
         right: inherit;
