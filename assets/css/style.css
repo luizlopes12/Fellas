@@ -459,7 +459,7 @@ body {
 }
 @media(max-width: 425px) {
     .hero__section .row{
-        margin-bottom: -30px;
+        margin-bottom: 0px;
     }
     .hero__section .hero__texts p{
         max-width: 85%;
