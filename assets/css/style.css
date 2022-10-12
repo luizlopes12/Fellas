@@ -151,7 +151,7 @@ body {
 }
 
 .mobile__menu.open .line3 {
-    transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px); 
 }
 
 /*
