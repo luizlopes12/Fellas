@@ -184,17 +184,18 @@ body {
         content: '';
         padding: 80px;
         position: absolute;
+        border-radius:  0 0 0 200px;
         right: 0;
         z-index: 0;
         top:0;
-        background: #02ffee;
-        filter: blur(120px);
+        background: linear-gradient(45deg, rgba(255,247,136,0) 30%, rgba(2,255,238,1) 100%);
+        filter: blur(60px);
     }
     .hero__section::after{
         content: '';
         padding: 80px;
         position: absolute;
-        left: 0;
+        left: -100px;
         z-index: 0;
         bottom: 0;
         background: #DC4DB4;
