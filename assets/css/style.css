@@ -383,7 +383,7 @@ body {
         transform: translate(-50%, 60vh);
     } 
     .mobile__menu {
-        display: flex;
+        display: block;
     }
 
     .nav__links {
