@@ -7,7 +7,9 @@ if(theme?.length > 0){
 const mobileNavBar = () =>{
     document.querySelector('.mobile__menu').classList.toggle('open')
     document.querySelector('.nav__links').classList.toggle('open')
-    document.querySelector('.navbar__section').classList.toggle('navbar__fixed')
+    if(window.innerWidth < 1000){
+        document.querySelector('.navbar__section').classList.toggle('navbar__fixed')
+    }
 }
 const switchTheme = () =>{
     document.body.classList.toggle('light__theme')
