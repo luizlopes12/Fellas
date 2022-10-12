@@ -457,3 +457,12 @@ body {
         margin-top: 40px;
     }
 }
+@media(max-width: 425px) {
+    .who__section .who__title{
+        border-radius: 10px 10px 0 0;
+    }
+    .who__section .who__desc{
+        border-radius: 0 0 10px 10px;
+    }
+}
+
