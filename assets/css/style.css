@@ -335,7 +335,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 80px 30px 80px 30px;
+    padding: 50px 30px 50px 30px;
 }
 
 .who__section .who__desc h3{
