@@ -13,3 +13,6 @@ const switchTheme = () =>{
     document.body.classList.toggle('dark__theme')
     localStorage.setItem('theme', document.body.classList)
 }
+
+document.body.classList.toggle('light__theme')
+localStorage.setItem('theme', document.body.classList)
