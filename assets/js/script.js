@@ -1,3 +1,5 @@
+let theme = document.querySelector('.container-fluid.wrapper')
+theme.classList.toggle(localStorage.getItem('theme')? localStorage.getItem('theme'): 'light__theme')
 const mobileNavBar = () =>{
     document.querySelector('.mobile__menu').classList.toggle('open')
     document.querySelector('.nav__links').classList.toggle('open')
@@ -9,6 +11,5 @@ const mobileNavBar = () =>{
 const switchTheme = () =>{
     document.body.classList.toggle('light__theme')
     document.body.classList.toggle('dark__theme')
-    localStorage.setItem('theme', document.body.classList)
+    localStorage.setItem('theme', theme.classList.contains('light__theme')?'light__theme':'dark__theme')
 }
-document.body.classList.toggle(localStorage.getItem('theme'))
