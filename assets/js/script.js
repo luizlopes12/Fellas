@@ -1,4 +1,4 @@
-let theme = localStorage.getItem('theme')
+let theme = localStorage.getItem('theme')? localStorage.getItem('theme'):'light__theme'
 if(theme?.length > 0){
     document.body.classList.add(theme)
 }else{
