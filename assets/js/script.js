@@ -1,9 +1,5 @@
 let theme = localStorage.getItem('theme')? localStorage.getItem('theme'):'light__theme'
-if(theme?.length > 0){
-    document.body.classList.add(theme)
-}else{
-    document.body.classList.add('light__theme')
-}
+ document.body.classList.toggle(theme)
 const mobileNavBar = () =>{
     document.querySelector('.mobile__menu').classList.toggle('open')
     document.querySelector('.nav__links').classList.toggle('open')
