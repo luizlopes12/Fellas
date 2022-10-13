@@ -1,4 +1,4 @@
-document.body.classList.add(localStorage.getItem('theme'))
+document.body.classList.toggle(localStorage.getItem('theme'))
 const mobileNavBar = () =>{
     document.querySelector('.mobile__menu').classList.toggle('open')
     document.querySelector('.nav__links').classList.toggle('open')
