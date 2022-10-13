@@ -1,4 +1,3 @@
-document.body.classList.toggle(localStorage.getItem('theme'))
 const mobileNavBar = () =>{
     document.querySelector('.mobile__menu').classList.toggle('open')
     document.querySelector('.nav__links').classList.toggle('open')
@@ -12,5 +11,4 @@ const switchTheme = () =>{
     document.body.classList.toggle('dark__theme')
     localStorage.setItem('theme', document.body.classList)
 }
-
-console.log(document.body.classList)
+document.body.classList.toggle(localStorage.getItem('theme'))
