@@ -160,10 +160,7 @@ body {
 //////////////////
 */
 
-.navbar__fixed{
-    position: fixed;
-    background: #fff;
-}
+
 .hero__section{
     min-height: 60vh;
 }
