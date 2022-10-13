@@ -12,3 +12,5 @@ const switchTheme = () =>{
     document.body.classList.toggle('dark__theme')
     localStorage.setItem('theme', document.body.classList)
 }
+
+console.log(document.body.classList)
