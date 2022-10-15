@@ -631,4 +631,7 @@ body {
         display: flex;
         justify-content: center;
     }
+    .presentation__section{
+        background: var(--section-bg);
+    }
 }
