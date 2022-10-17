@@ -48,6 +48,9 @@ body {
 * {
     z-index: 2;
 }
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    --bs-glutter-x: 0 !important;
+}
 
 /*
 /////////////////////
