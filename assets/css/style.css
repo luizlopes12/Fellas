@@ -43,8 +43,12 @@ body {
     transition: all .2s ease-in-out;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
 }
-
+body::-webkit-scrollbar {
+    display: none;
+  }
 * {
     z-index: 2;
 }
