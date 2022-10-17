@@ -431,7 +431,7 @@ body::-webkit-scrollbar {
 }
 
 .presentation__section{
-    /* min-height: 100vh; */
+    position: relative;
     padding-top: 150px;
 }
 .presentation__section .presentation__text,.presentation__section .presentation__title{
@@ -450,6 +450,17 @@ body::-webkit-scrollbar {
 .presentation__section .presentation__img{
     max-width: 100%;
 }
+.presentation__section::after {
+    content: '';
+    padding: 150px;
+    position: absolute;
+    right: -100px;
+    z-index: -1;
+    bottom: -260px;
+    background: var(--terciary-blue);
+    filter: blur(200px);
+}
+
 
 @media(max-width: 1000px) {
     .light__theme .theme__switcher button {
@@ -481,7 +492,13 @@ body::-webkit-scrollbar {
         background: #DC4DB4;
         filter: blur(120px);
     }
-
+    .presentation__section::after {
+        content: '';
+        padding: 80px;
+        right: -100px;
+        bottom: 0;
+        filter: blur(120px);
+    }
     .theme__switcher {
         position: absolute;
         right: inherit;
