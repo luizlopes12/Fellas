@@ -652,12 +652,12 @@ body::-webkit-scrollbar {
         line-height: .8;
     }
     .about__cards{
-        margin: 0;
+        margin: -250px 0 0 0;
         display: flex;
         justify-content: center;
     }
-    .presentation__section{
-        background: var(--section-bg);
+    .about__section{
+        padding-bottom: 200px;
     }
     .presentation__section{
         /* min-height: 100vh; */
