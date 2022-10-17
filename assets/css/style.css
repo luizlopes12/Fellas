@@ -42,11 +42,8 @@ body {
     outline: none;
     transition: all .2s ease-in-out;
     font-family: 'Inter', sans-serif;
-    overflow-x: hidden;
 }
-body::-webkit-scrollbar {
-    display: none;
-  }
+
 * {
     z-index: 2;
 }
@@ -503,7 +500,7 @@ body::-webkit-scrollbar {
         overflow: hidden;
         content: '';
         padding: 80px;
-        right: -100px;
+        right: 0;
         bottom: 0;
         filter: blur(120px);
     }
@@ -617,9 +614,7 @@ body::-webkit-scrollbar {
 }
 
 @media(max-width: 425px) {
-    ::-webkit-scrollbar {
-        -webkit-appearance: none;
-    }
+
     .hero__section .bello_illustration {
         margin-bottom: -50px;
     }
