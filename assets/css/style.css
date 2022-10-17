@@ -42,6 +42,7 @@ body {
     outline: none;
     transition: all .2s ease-in-out;
     font-family: 'Inter', sans-serif;
+    overflow-y: hidden !important;
 }
 
 * {
