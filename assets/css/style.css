@@ -400,7 +400,7 @@ body::-webkit-scrollbar {
     color: var(--primary-title-color);
     font-size: 5rem;
     word-wrap: break-word;
-    width: 68%;
+    width: 4ch;
     line-height: .8;
     margin-bottom: 0;
 }
@@ -665,7 +665,7 @@ body::-webkit-scrollbar {
         color: var(--primary-title-color);
         font-size: 5rem;
         word-wrap: break-word;
-        width: 100%;
+        width: 4ch;
         line-height: .8;
     }
     .about__cards{
