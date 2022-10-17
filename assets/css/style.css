@@ -68,6 +68,8 @@ body::-webkit-scrollbar {
     position: fixed;
     right: 10px;
     top: 10px;
+    z-index: 999;
+
 }
 
 .theme__switcher button {
@@ -75,6 +77,7 @@ body::-webkit-scrollbar {
     height: 30px;
     border: none;
     outline: none;
+    z-index: 999;
     transition: all .2s ease-in-out;
 }
 

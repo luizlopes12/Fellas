@@ -9,7 +9,11 @@ const mobileNavBar = () =>{
     }
 }
 const switchTheme = () =>{
+    if(window.innerWidth < 1000){
+        mobileNavBar()
+    }
     document.body.classList.toggle('light__theme')
     document.body.classList.toggle('dark__theme')
     localStorage.setItem('theme', document.body.classList)
+
 }
