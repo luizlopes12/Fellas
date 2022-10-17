@@ -330,7 +330,7 @@ body::-webkit-scrollbar {
 
 .hero__section .hero__texts p {
     color: var(--font-color);
-    max-width: 60%;
+    max-width: 65%;
     font-size: 1.25rem;
     font-weight: 100;
 }
