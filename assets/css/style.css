@@ -201,9 +201,11 @@ body::-webkit-scrollbar {
     top: -300px;
     background: #02FFF0;
     filter: blur(200px);
+    overflow: hidden;
 }
 
 .hero__section::after {
+    overflow: hidden;
     content: '';
     padding: 200px;
     position: absolute;
@@ -454,6 +456,7 @@ body::-webkit-scrollbar {
     max-width: 100%;
 }
 .presentation__section::after {
+    overflow: hidden;
     content: '';
     padding: 150px;
     position: absolute;
@@ -488,6 +491,7 @@ body::-webkit-scrollbar {
 
     .hero__section::after {
         content: '';
+        overflow: hidden;
         padding: 80px;
         position: absolute;
         left: -100px;
@@ -496,6 +500,7 @@ body::-webkit-scrollbar {
         filter: blur(120px);
     }
     .presentation__section::after {
+        overflow: hidden;
         content: '';
         padding: 80px;
         right: -100px;
