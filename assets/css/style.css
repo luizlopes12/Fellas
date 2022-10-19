@@ -471,6 +471,28 @@ body {
     filter: blur(200px);
 }
 
+.projects__section .projects__lined h2{
+    color: var(--primary-title-color);
+    font-weight: 600;
+    font-size: 5rem;
+    position: relative;
+}
+
+.projects__section .projects__lined h2::after{
+    content: '';
+    width: 100%;
+    padding: 3px;
+    background: var(--bg-color);
+    position: absolute;
+    left: 0;
+    top: 60%;
+}
+
+.projects__section .projects p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--font-color);
+}
 
 @media(max-width: 1000px) {
     .light__theme .theme__switcher button {
@@ -622,7 +644,7 @@ body {
 
 @media(max-width: 425px) {
     .navbar__section .container{
-        padding: 3rem 2rem 3rem;
+        padding: 1rem ;
     }
     .hero__section .bello_illustration {
         margin-bottom: -50px;
@@ -692,4 +714,13 @@ body {
         /* min-height: 100vh; */
         padding-top: 0px;
     }
+    
+    .projects__section .projects__lined h2::after{
+        display: none;
+    }
+    
+    .projects__section .projects p{
+        display: none;
+    }
+    
 }

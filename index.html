@@ -29,14 +29,15 @@
                 <div class="line3"></div>
             </div>
             <ul class="nav__links mb-0 px-0">
-                <li><a href="#" onclick="mobileNavBar()">Quem somos</a></li>
-                <li><a href="#" onclick="mobileNavBar()">Serviços</a></li>
-                <li><a href="#" onclick="mobileNavBar()">Projetos</a></li>
+                <li><a href="#whoare" onclick="mobileNavBar()">Quem somos</a></li>
+                <li><a href="#services" onclick="mobileNavBar()">Serviços</a></li>
+                <li><a href="#projects" onclick="mobileNavBar()">Projetos</a></li>
                 <li><a href="#" onclick="mobileNavBar()">Nosso Time</a></li>
-                <div class="theme__switcher">
-                    <button onclick="switchTheme()"></button>
-                </div>
+
             </ul>
+            <div class="theme__switcher">
+                <button onclick="switchTheme()"></button>
+            </div>
         </nav>
     </section>
     <section class="container hero__section">
@@ -53,7 +54,7 @@
             <div class="col">
                 <div class="hero__texts">
                     <h2>Em busca do seu</h2>
-                    <img src="./assets/img/melhor.svg" alt="Melhor">
+                    <img src="./assets/img/melhor.svg" alt="Melhor" id="whoare">
                     <p>Desenvolvemos as soluções ideais para a sua saúde e bem-estar</p>
                     <button class="hero__btn">Saiba mais</button>
                 </div>
@@ -75,7 +76,7 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid about__section">
+    <section class="container-fluid about__section" id="services">
         <section class="container about__container mt-5">
             <div class="row d-flex justify-content-center">
                 <div class="col-11 col-lg-3 about__title">
@@ -124,6 +125,14 @@
             </div>
             <div class="col-12 col-md-6">
                 <img class="presentation__img" src="./assets/img/presentation.png" alt="Apresentação">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid projects__section mt-5" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 d-flex justify-content-end align-items-center projects__lined "><h2 class="mb-0">Projetos</h2></div>
+                <div class="col-sm-6 d-flex justify-content-start align-items-center projects"><p class="mb-0 mt-4">Projetos</p></div>
             </div>
         </div>
     </section>
