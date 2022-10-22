@@ -1029,5 +1029,11 @@ body {
     }
     .team__section .team__cards span{
         max-width: 280px;
+        padding: 0;
+    }
+    .footer__section .footer_inc span{
+        margin-right: 30px;
+        margin-top: 30px;
+        font-size: 1.1rem;
     }
 }
