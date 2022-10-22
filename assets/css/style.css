@@ -551,7 +551,7 @@ body {
     transition: all .3s ease-in-out;
 }
 
-.projects__section .cards .col.active{
+.projects__section .cards .col-4.active{
     transition: all .3s ease-in-out;
     z-index: 5;
     transform: scale(1.3);
@@ -759,22 +759,8 @@ body {
 .projects__section .projects__control{
    display: none;
 }
-.projects__section .projects__control .control__left{
-    border: 5px solid var(--font-color);
-    border-bottom: 0;
-    border-right: 0;
-    width: 20px;
-    height: 20px;
-}
 
-.projects__section .projects__control .control__right{
-    border: 5px solid var(--font-color);
-    border-top: 0;
-    border-left: 0;
-    width: 20px;
-    height: 20px;
-}
-.projects__section .cards{
+.projects__section .scroller{
     overflow-x: scroll;
 }
 .projects__section .cards{
