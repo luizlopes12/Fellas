@@ -774,6 +774,9 @@ body {
     width: 20px;
     height: 20px;
 }
+.projects__section{
+    overflow-x: scroll;
+}
 .projects__section .cards{
     flex-direction: row !important;
     display: inline-block !important;

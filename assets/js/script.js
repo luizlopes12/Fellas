@@ -17,9 +17,6 @@ const switchTheme = () =>{
     localStorage.setItem('theme', document.body.classList)
 
 }
-if(window.innerWidth < 800){
-    document.querySelectorAll('.projects__section .row.cards .col-4.col-sm').classList.remove('col-sm')
-}
 
 let projectsSlidePage = 1;
 const projectsSlide = (num) =>{
@@ -50,4 +47,9 @@ const projectsSlide = (num) =>{
     }
 
 }
-projectsSlide(1)
+
+if(window.innerWidth < 800){
+    document.querySelectorAll('.projects__section .col-4.col-sm').forEach(item => item.classList.remove('col-sm'))
+}else{
+    projectsSlide(1)
+}
