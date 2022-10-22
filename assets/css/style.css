@@ -1027,5 +1027,7 @@ body {
     .projects__section .projects p{
         display: none;
     }
-    
+    .team__section .team__cards span{
+        max-width: 280px;
+    }
 }
