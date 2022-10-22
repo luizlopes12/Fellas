@@ -559,7 +559,7 @@ body {
 .projects__section .projects__control{
     z-index: 10;
     min-height: 50px;
-    width: 92%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -595,6 +595,14 @@ body {
 }
 .projects__section .projects__control .control__right:hover{
     transform: rotate(-45deg) scale(1.2);
+}
+.projects__section .project__down img{
+    margin-top: 20px;
+    width: 100%;
+}
+.projects__lined h2{
+    width: 100%;
+    text-align: end;
 }
 @media(max-width: 1000px) {
 
@@ -745,6 +753,10 @@ body {
     }
 }
 @media(max-width: 800px) {
+    .projects__lined h2{
+        width: 100%;
+        text-align: center;
+    }
 .projects__section .cards .col-4{
     width: 300px !important;
     flex-direction: column;
