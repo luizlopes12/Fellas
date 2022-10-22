@@ -696,6 +696,43 @@ body {
     width: 100%;
     border-top: 1px solid;
 }
+.footer__section .footer__socials img{
+    filter: invert(1);
+}
+.footer__section .footer__socials a{
+    text-decoration: none;
+}
+.footer__section .footer__logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 10px;
+}
+.footer__section .footer__logo img{
+    height: 50px;
+}
+.footer__section .footer__socials{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: 20px;
+}
+.footer__section .footer__socials img{
+    height: 32px;
+}
+.footer__section .footer_inc{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer__section .footer_inc span{
+    margin-right: 30px;
+    color: #f2f2f2;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
 @media(max-width: 1366px){
     .team__section h2{
         color: var(--primary-title-color);

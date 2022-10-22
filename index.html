@@ -32,7 +32,7 @@
                 <li><a href="#whoare" onclick="mobileNavBar()">Quem somos</a></li>
                 <li><a href="#services" onclick="mobileNavBar()">Serviços</a></li>
                 <li><a href="#projects" onclick="mobileNavBar()">Projetos</a></li>
-                <li><a href="#" onclick="mobileNavBar()">Nosso Time</a></li>
+                <li><a href="#team" onclick="mobileNavBar()">Nosso Time</a></li>
                 <div class="theme__switcher">
                     <button onclick="switchTheme()"></button>
                 </div>
@@ -75,7 +75,8 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid about__section" id="services">
+    <div id="services"></div>
+    <section class="container-fluid about__section">
         <section class="container about__container mt-5">
             <div class="row d-flex justify-content-center">
                 <div class="col-11 col-lg-3 about__title">
@@ -131,7 +132,8 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid projects__section mt-5" id="projects">
+    <div id="projects"></div>
+    <section class="container-fluid projects__section mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-6 d-flex justify-content-end align-items-center projects__lined ">
@@ -190,7 +192,7 @@
             </div>
         </div>
     </section>
-    <section class="team__section">
+    <section class="team__section" id="team">
         <div class="row d-flex justify-content-center">
             <div class="col px-0">
                 <h2 class="text-center">Nossa equipe</h2>
@@ -267,7 +269,26 @@
         </div>
     </section>
     <footer class="footer__section">
-        
+        <div class="footer__logo">
+            <img src="./assets/img/logo_fellas.svg" alt="Logo">
+            <img src="./assets/img/fellas.svg" alt="Escrita fellas">
+        </div>
+        <div class="footer__socials">
+            <a href="#">
+                <img src="./assets/img/linkdin.svg" alt="Linkedin">
+            </a>
+            <a href="#">
+                <img src="./assets/img/insta.svg" alt="Instagram">
+            </a>
+            <a href="#">
+                <img src="./assets/img/twitter.svg" alt="Twitter">
+            </a>
+        </div>
+        <div class="footer_inc">
+            <span>
+                Fellas inc.
+            </span>
+        </div>
     </footer>
 </body>
 <script src="./assets/js/script.js"></script>
