@@ -21,7 +21,7 @@ body.light__theme {
 }
 
 body.dark__theme {
-    --bg-color: #0F0F0F;
+    --bg-color: #151515;
     --section-bg: #0F0F0F;
     --terciary-blue: #1BF2FF;
     --secondary-blue: #3E77FF;
@@ -617,6 +617,9 @@ html,body{
     bottom: -29.5vh;
     left: 0;
     border-radius: 0 0 50% 50%;
+}
+.project__texts .project__desc{
+    min-height: 100px;
 }
 .project__down{
     cursor: pointer;
