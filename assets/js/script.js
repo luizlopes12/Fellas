@@ -53,3 +53,27 @@ if(window.innerWidth < 800){
 }else{
     projectsSlide(1)
 }
+
+
+const putTexts = async () =>{
+    let textsArray;
+    await fetch('./assets/config/texts.xml')
+    .then(response => response.text())
+    .then(xml => {
+        let xmlContent = xml;
+        let parser = new DOMParser();
+        let xmlDOM = parser.parseFromString(xmlContent, 'application/xml');
+        let texts = xmlDOM.querySelectorAll('lbl');
+    
+        
+        textsArray = texts
+    })
+    let divsXml = document.querySelectorAll('[data-text]')
+    divsXml.forEach((item, index) =>{
+        if(item.dataset.text == textsArray[index].attributes.val.value){
+            item.innerHTML = textsArray[index].innerHTML
+        }
+    })
+}
+
+putTexts()

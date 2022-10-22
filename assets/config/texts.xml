@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<texts>
+    <lbl val='whotxt'>
+        Nascido em berço universitário, somos uma equipe de desenvolvimento especializada em desenvolver,
+        ampliar e auxiliar estabelecimentos relacionados à saúde, beleza e bem-estar, através de soluções
+        aplicadas com tecnologia.
+        </lbl>
+    <lbl val='abouttxt'>
+        Nosso principal objetivo é simples, te fazer feliz através de estudos cientificos relacionados à
+        bem-estar saúde e beleza, te levando até o próximo nível de autoestima, autoconfiança e
+        autocontrole, te transformando na melhor versão de si mesmo.
+    </lbl>
+    <lbl val='prestxt'>
+        Tá em dúvida de qual estilo combina com você?<br />
+        Com o Bello você consegue visualizar, testar e saber qual é a sua cara!
+        <br />E de quebra te indicamos alguns estabelecimentos parceiros do App
+    </lbl>
+        <lbl val='projtxt'>
+        Aplicativo que escaneia seu rosto, analiza quais seriam os
+        padrões recomendados para o seu estilo, com indicações de estabelecimentos próximos
+        para a realização.
+    </lbl>
+</texts>
