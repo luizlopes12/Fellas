@@ -781,7 +781,7 @@ body {
     flex-wrap: nowrap !important;
 }
 .projects__section .card__wrapper{
-    flex-direction: row !important;
+    flex-direction: row-reverse !important;
     flex-wrap: nowrap !important;
 }
 }
