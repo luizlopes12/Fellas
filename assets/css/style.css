@@ -21,7 +21,7 @@ body.light__theme {
 }
 
 body.dark__theme {
-    --bg-color: #151515;
+    --bg-color: #0F0F0F;
     --section-bg: #0F0F0F;
     --terciary-blue: #1BF2FF;
     --secondary-blue: #3E77FF;
