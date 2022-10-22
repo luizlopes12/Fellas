@@ -782,7 +782,7 @@ body {
 }
 .projects__section .card__wrapper{
     flex-direction: row-reverse !important;
-    padding-left: 36px;
+    padding-left: 40px;
     flex-wrap: nowrap !important;
 }
 }
