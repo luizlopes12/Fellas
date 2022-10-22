@@ -774,7 +774,7 @@ body {
     width: 20px;
     height: 20px;
 }
-.projects__section{
+.projects__section .cards{
     overflow-x: scroll;
 }
 .projects__section .cards{
