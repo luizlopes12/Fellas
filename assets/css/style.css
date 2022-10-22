@@ -764,9 +764,15 @@ body {
 }
 .projects__section .cards .task{
     transform: translateX(0);
+    order: 3;
+}
+.projects__section .cards .bello{
+    transform: translateX(0);
+    order: 2;
 }
 .projects__section .cards .aiq{
     transform: translateX(0);
+    order: 1;
 }
 .projects__section .projects__control{
    display: none;
@@ -782,7 +788,6 @@ body {
 }
 .projects__section .card__wrapper{
     flex-direction: row-reverse !important;
-    padding-left: 40px;
     flex-wrap: nowrap !important;
 }
 }
