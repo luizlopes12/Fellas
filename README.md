@@ -3,4 +3,4 @@
  
  Desenvolvimento de Software Multiplataforma - Fatec Registro 2022
  
- Em desenvolvimento...
+ http://gofellas.vercel.app
