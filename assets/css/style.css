@@ -246,28 +246,28 @@ html,body{
     position: absolute;
     top: 20px;
     left: 10%;
-    animation: loop1 80s infinite;
+    animation: loop1 60s infinite;
 }
 
 .bello_illustration img:nth-of-type(2) {
     position: absolute;
     top: -20px;
     left: 45%;
-    animation: loop1 80s infinite;
+    animation: loop1 60s infinite;
 }
 
 .bello_illustration img:nth-of-type(3) {
     position: absolute;
     top: -50px;
     left: 35%;
-    animation: loop2 80s infinite;
+    animation: loop2 60s infinite;
 }
 
 .bello_illustration img:nth-of-type(4) {
     position: absolute;
     top: 80px;
     left: 65%;
-    animation: loop2 80s infinite;
+    animation: loop2 60s infinite;
 }
 
 .bello_illustration img:nth-of-type(5) {
@@ -874,28 +874,28 @@ html,body{
         position: absolute;
         top: 20px;
         left: 10%;
-        animation: loop1 80s infinite;
+        animation: loop1 60s infinite;
     }
 
     .bello_illustration img:nth-of-type(2) {
         position: absolute;
         top: -20px;
         left: 45%;
-        animation: loop1 80s infinite;
+        animation: loop1 60s infinite;
     }
 
     .bello_illustration img:nth-of-type(3) {
         position: absolute;
         top: -50px;
         left: 35%;
-        animation: loop2 80s infinite;
+        animation: loop2 60s infinite;
     }
 
     .bello_illustration img:nth-of-type(4) {
         position: absolute;
         top: 80px;
         left: 65%;
-        animation: loop2 80s infinite;
+        animation: loop2 60s infinite;
     }
 
     .bello_illustration img:nth-of-type(5) {
