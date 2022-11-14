@@ -805,7 +805,6 @@ html,body{
     .theme__switcher button {
         position: absolute;
         right: inherit;
-        top: inherit;
         left: 50%;
         transform: translate(-50%, 60vh);
     }
