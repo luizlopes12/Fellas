@@ -62,7 +62,6 @@ html,body{
 /////////////////////
 */
 .stop__scroll {
-    height: 90vh;
     overflow: hidden;
 }
 
